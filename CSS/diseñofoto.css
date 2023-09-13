@@ -1,0 +1,9 @@
+.foto{
+    background-color: transparent;
+    position: relative;
+    perspective: 800px;
+    width: 1200px;
+    height: 850px;
+    top: -350px;
+    left: 3px;
+}

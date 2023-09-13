@@ -1,0 +1,100 @@
+
+
+.contacto{
+    background-color: rgb(28, 28, 35);
+    position: relative;
+    width: 120%;
+    height: 300px;
+
+}
+
+/*poner en posiciones de bordes*/
+.socal-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contenido{
+    color: #fff;
+}
+
+.social-media-icon{
+    position: relative;
+    left: 33%;
+    top: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+
+}
+.social-media-icon:hover{
+    background: rgb(28, 28, 35);
+    box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255), 0 0 80px rgb(0, 183, 255);
+    transition-delay: 0,5s;;
+    color: rgb(0, 183, 255);
+
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.linea1{
+    position: absolute;
+    width: 1170px;
+    height: 2px;
+    top: 210px;
+    left: 10px;
+    background-color: rgb(0, 183, 255);
+}
+.linea2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 2px;
+    height: 200px;
+    background-color: rgb(0, 183, 255);
+}
+.linea3{
+    position: absolute;
+    top: 10px;
+    left: 1178px;
+    width: 2px;
+    height: 200px;
+    background-color: rgb(0, 183, 255);
+}
+
+
+
+#circulo1, #circulo2, #circulo3, #circulo4, #circulo5, #circulo6, #circulo7, #circulo8{
+    border-radius: 100%;
+    position: absolute;
+    background-color: rgb(0, 183, 255);
+    top: 30px;
+    left: 10px;
+}
+
+.linea{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: y;
+    margin-bottom: 60px;
+}
+.cor{
+    top: 53px;
+}
+.link3{
+   color: rgb(0, 183, 255);
+    position: absolute;
+    font-size: 14px;
+    top: 163px;
+    left: 165px;
+}
+
+

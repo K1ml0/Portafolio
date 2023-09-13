@@ -1,0 +1,30 @@
+
+.contenedor{
+    position: relative;
+    left: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+.es{
+  position: absolute;
+  top: -8000px;
+}
+.imagen{
+  width: 400px;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 2px solid;
+  color: rgb(0, 183, 255);
+ 
+}
+
+.imagen:hover{
+   transform: scale(1.1);
+   background: rgb(0, 183, 255);
+   box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255),0 0 60px rgb(0, 183, 255);
+}

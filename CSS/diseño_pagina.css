@@ -1,0 +1,455 @@
+.contact{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    left: 200px;
+
+}
+header{  
+    position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.barra-navegacion{
+     text-transform: uppercase;
+     background: rgb(0, 0, 0, 0.7);
+     top: 10px;
+     
+   
+}
+
+.btn-portafolio{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    left: 272px;
+}
+.btn-portafolio:hover{
+    background: rgb(0, 183, 255);;
+    box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255), 0 0 80px rgb(0, 183, 255);
+    transition-delay: 1s;
+}
+.CV:hover{
+    box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255), 0 0 80px rgb(0, 183, 255);
+}
+.btn-portafolio span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgb(0, 183, 255));
+}
+.btn-portafolio:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, rgb(0, 183, 255));
+}
+.btn-portafolio:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgb(0, 183, 255));
+}
+.btn-portafolio:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, rgb(0, 183, 255));
+}
+.btn-portafolio:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-avilidades{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+ 
+    left: 292px;
+}
+.btn-avilidades:hover{
+    background: rgb(0, 183, 255);
+    box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255), 0 0 80px rgb(0, 183, 255);
+    transition-delay: 1s;
+}
+.btn-avilidades span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgb(0, 183, 255));
+}
+.btn-avilidades:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, rgb(0, 183, 255));
+}
+.btn-avilidades:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgb(0, 183, 255));
+}
+.btn-avilidades:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, rgb(0, 183, 255));
+}
+.btn-avilidades:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-experiencia{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+    left: 312px;
+}
+.btn-experiencia:hover{
+    background: rgb(0, 183, 255);
+    box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255), 0 0 80px rgb(0, 183, 255);
+    transition-delay: 1s;
+}
+.btn-experiencia span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgb(0, 183, 255));
+}
+.btn-experiencia:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, rgb(0, 183, 255));
+}
+.btn-experiencia:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgb(0, 183, 255));
+}
+.btn-experiencia:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, rgb(0, 183, 255));
+}
+.btn-experiencia:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-contacto{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+  
+    left: 332px;
+}
+.btn-contacto:hover{
+    background: rgb(0, 183, 255);
+    box-shadow: 0 0 10px rgb(0, 183, 255), 0 0 40px rgb(0, 183, 255), 0 0 80px rgb(0, 183, 255);
+    transition-delay: 1s;
+}
+.btn-contacto span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgb(0, 183, 255));
+}
+.btn-contacto:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, rgb(0, 183, 255));
+}
+.btn-contacto:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, rgb(0, 183, 255));
+}
+.btn-contacto:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, rgb(0, 183, 255));
+}
+.btn-contacto:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+.nobre_imagen_html, .nobre_imagen_css, .nobre_imagen_java, .nobre_imagen_javascript, .nobre_imagen_python{
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0, 0.5);
+  
+}
+.cor{
+    font-size: 14px;
+}
+
+.correo_1, .correo_2{
+    position: absolute;
+    font-size: 14px;
+    left: 100px;
+    color: rgb(0, 183, 255);
+}
+.correo_1{
+    top: 113px;
+    left: 180px;
+}
+.correo_2{
+    top: 137px;
+    left: 180px;
+}
+.link{
+    color: rgb(0, 183, 255);
+}
+.nobre_imagen_html{
+    top: 25%;
+    left: 16%;
+}
+
+.nobre_imagen_css{
+    top: 24%;
+    left: 70%;
+    
+}
+.nobre_imagen_java{
+    top: 580px;
+    left: 110px;
+}
+.nobre_imagen_javascript{
+    top: 580px;
+    left: 652px;
+
+}
+.nobre_imagen_python{
+    top: 91%;
+    left: 36%;
+ 
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+    .titulo{
+        font-size: 30px;
+    }
+  
+
+}
+@media screen and (max-width:800px){
+ 
+    
+    .titulo{
+        font-size: 30px;
+    }
+ 
+  
+}
+@media screan and (max-width: 500px){
+   
+ 
+     .titulo{
+         font-size: 30px;
+     }
+    
+
+}

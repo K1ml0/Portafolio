@@ -1,0 +1,2537 @@
+
+body{
+    margin: 0;
+    margin: 0;
+    padding: 0;
+
+    
+}
+.app{
+    background-color: transparent;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: -150px;
+    left: 100px;
+}
+#avilidades{
+    position: relative;
+    top: -1200px;
+
+}
+#cuvo{
+    animation: gira 4s linear infinite;
+  
+}
+.ta{
+    position: absolute;
+    transform: translate(0px);
+}
+
+.targetahtml, .targetacss, .targeta_javas, .targeta_java{
+    position: absolute;
+    top: 100px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 20px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    left: 50px;
+}
+.targetahtml, .targetacss, .targeta_javas,.targeta_java{
+    left: -50;
+    transform: translate(-500px);
+}
+
+.titulo_1, .titulo_2, .titulo_3,.titulo_4{
+    position: relative;
+    left: -0px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.logica_html, .Dominio_html, .logica_css, .Dominio_css, .logica_javas, .Dominio_javas, .logica_java, .Dominio_java, .Experiencia_html, .Conocimiento_html, .Experiencia_css, .Conocimiento_css, .Experiencia_javas, .Conocimiento_javas, .Experiencia_java, .Conocimiento_java{
+    position: relative;
+    color: white;
+    left: 8px;
+}
+.barra1html_L, .barra1html_D, .barracss_1, .barracss_2, .barrajavas_1, .barrajavas_2, .barrajava_1, .barrajava_2{ 
+    position: relative;
+    height: 10px;
+    width: 150px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+
+    border-radius: 10px;
+}
+.barrahtml_E, .barrahtml_C, .barracss_E, .barracss_C,  .barrajavas_E, .barrajavas_C, .barrajava_E, .barrajava_C{
+    position: relative;
+    height: 10px;
+    width: 135px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+
+    border-radius: 10px;
+
+}
+
+.barra_L_1, .barra_D_2, .barra_L_3, .barra_D_3, .barra_L_4, .barra_D_4, .barra_L_5, .barra_D_5, .barra_E_6, .barra_C_6, .barra_E_7, .barra_C_7, .barra_E_8, .barra_C_8, .barra_E_9, .barra_C_9{
+    
+    height: 10px;
+    width: 10px;;
+    background-color: rgb(0, 183, 255);
+    border-radius: 10px;
+  
+}
+.barra_L_1, .barra1html_L, .barracss_1, .barrajavas_1, .barrajava_1{
+    top: -135px;
+    left: 75px;
+
+}
+.barrahtml_E , .barracss_E, .barrajavas_E, .barrajava_E{
+    top: -95px;
+    left: 90px;
+}
+
+
+.barra_D_2, .barra1html_D, .barracss_2, .barrajavas_2, .barrajava_2{
+    top: -115px;
+    left: 75px;
+  
+}
+.barrahtml_C, .barracss_C, .barrajavas_C, .barrajava_C{
+    top: -75px;
+    left: 102px;
+}
+.barrahtml_C, .barracss_C, .barrajavas_C, .barrajava_C{
+    height: 10px;
+    width: 122px;
+}
+@keyframes girar{
+    from{
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+
+
+
+#cuvo0{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    top:  0px;
+    left: 0px;
+    
+  
+}
+.c1{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(../html/1-1.png);
+    background-size: 99px 99px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../imgjava/1-3.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c5{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/3-1.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+
+
+#cuvo2{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    margin: auto;
+    top: 0px;
+    left: 100px;
+    
+}
+.c7{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/1-2.png);
+    background-size: 99px 100px;
+    transform: translateZ(50px) ;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c8{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c9{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(115, 0, 128); 
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c10{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63); 
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c11{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/3-2.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c12{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+
+
+#cuvo3{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    margin: auto;
+    top: 0px;
+    left: 200px;
+    
+}
+.c13{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(../html/1-3.png);
+    background-size: 100px 102px;
+    top: 2px;
+    left: 4px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c14{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/1-1.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c15{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(58, 56, 58); 
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c16{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c17{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/3-3.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c18{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+
+#cuvo4{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    margin: auto;
+    top: 100px;
+    left: 0px;
+    
+}
+.c19{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(..//html/2-1.png);
+    background-size: 100px 95px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c20{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 169, 185);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c21{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjava/2-3.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c22{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c23{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c24{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+#cuvo5{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    margin: auto;
+    top: 100px;
+    left: 100px;
+    
+}
+.c25{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(../html/2-2.png);
+    background-size: 100px 100px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c26{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c27{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c28{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c29{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c30{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+#cuvo6{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    margin: auto;
+    top: 100px;
+    left: 200px;
+    
+}
+.c31{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(../html/2-3.png);
+    background-size: 100px 100px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c32{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/2-1.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c33{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(148, 162, 152);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c34{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c35{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c36{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+
+#cuvo7{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    top: 200px;
+    left: 0px;
+    
+}
+.c37{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(../html/3-1.png);
+    background-size: 100px 100px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c38{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c39{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjava/3-3.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c40{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c41{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c42{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/1-1.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px; 
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+
+#cuvo8{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    top: 200px;
+    left: 100px;
+    
+}
+.c43{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) translateY(-0px) translateX(50px);
+    background-image: url(../html/3-2.png);
+    background-size: 100px 100px;
+    border: 2px solid;
+    color: rgb(36, 131, 131);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c44{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c45{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+.c46{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c47{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/1-2.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c48{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/1-2.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+#cuvo9{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-151px) translateZ(100px);
+    top: 200px;
+    left: 200px;
+    
+}
+.c49{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-image: url(../html/3-3.png);
+    background-size: 100px 100px;
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c50{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/3-1.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c51{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c52{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c53{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/1-3.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c54{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/1-3.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+#cuvo10{
+    position: relative;
+    transform-style: preserve-3d;
+    top:  0px;
+    left: 0px;
+    transform: translateX(50px) translateY(-154px);
+    
+}
+.c55{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c56{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c57{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjava/1-2.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c58{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c59{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/2-1.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c60{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+#cuvo11{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(50px) translateY(-154px);
+    top:  0px;
+    left: 100px;
+    
+}
+.c61{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c62{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c63{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+.c64{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c65{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/2-2.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c66{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+
+#cuvo12{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(52px) translateY(-152px);
+    top:  0px;
+    left: 200px;
+
+    
+}
+.c67{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+   
+
+
+}
+
+
+
+
+.c68{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/1-2.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c69{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 251, 255); 
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c70{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+      transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c71{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/2-3.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c72{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+#cuvo13{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateY(-153px) translateX(48px);
+    top:  100px;
+    left: 0px;
+    
+  
+}
+.c73{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+      border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+
+
+}
+
+
+
+
+.c74{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+     border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c75{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../imgjava/2-2.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+     border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c76{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+      border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c77{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+      border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c78{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+     border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+#cuvo{
+    transform-style: preserve-3d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 2px auto;
+    width: 500px;
+
+}
+#cuvo14{
+    transform-style: preserve-3d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 2px auto;
+    width: 500px;
+   
+    
+  
+}
+.c79{
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(50px) ;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+
+.c80{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateX(90deg) translateZ(50px);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c81{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    background-color: a;
+    transform: rotateY(90deg) translateZ(50px);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c82{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg) translateZ(-50px);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c83{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg) translateZ(-50px);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c84{
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+  
+
+}
+#cuvo15{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translate(-448px) translateY(-150px);
+    top:  100px;
+    left: 200px;
+    
+    
+}
+.c85{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c86{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/2-2.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c87{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c88{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c89{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c90{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo16{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px);
+    top:  200px;
+    left: 00px;
+    
+    
+}
+.c91{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c92{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c93{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjava/3-2.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c94{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c95{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c96{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/2-1.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo17{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px);
+    top:  200px;
+    left: 100px;
+    
+    
+}
+.c97{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c98{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c99{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c100{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c101{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c102{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/2-2.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo18{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px);
+    top:  200px;
+    left: 200px;
+    
+  
+}
+.c103{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c104{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../imgjavascript/3-2.png);
+    background-size: 111px 100px;
+    left: 105px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c105{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c106{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c107{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c108{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/2-3.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo19{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  0px;
+    left: 0px;
+    
+  
+}
+.c109{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c110{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(83, 83, 83);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c111{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjava/1-1.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c112{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/1-3.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c113{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/1-1.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c114{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo20{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  100px;
+    left: 0px;
+    
+  
+}
+.c115{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c116{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c117{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjava/2-1.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c118{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//html/2-3.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c119{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c120{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo21{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  200px;
+    left: 0px;
+    
+  
+}
+.c121{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+}
+
+
+
+
+.c122{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c123{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../imgjava/3-1.png);
+    background-size: 100px 100px;
+    transform: rotateY(90deg) rotateY(180deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c124{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/3-3.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c125{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c126{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/3-1.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo22{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  0px;
+    left: 100px;
+    
+  
+}
+.c129{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c130{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c131{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c132{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/1-2.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c133{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/1-2.png);
+    background-size: 100px 99px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c134{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo23{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  100px;
+    left: 100px;
+    
+  
+}
+.c135{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c136{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c137{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c138{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//html/2-2.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c139{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c140{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo24{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  200px;
+    left: 100px;
+    
+  
+}
+.c141{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c142{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c143{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c144{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/3-2.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c145{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c146{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/3-2.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo25{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  0px;
+    left: 200px;
+    
+  
+}
+.c149{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c150{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/1-3.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c151{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c152{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/1-1.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c153{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/1-3.png);
+    background-size: 115px 99px;
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c154{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo26{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  100px;
+    left: 200px;
+    
+  
+}
+.c155{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c156{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../imgjavascript/2-3.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c157{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c158{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/2-1.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c159{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c160{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotatex(90deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+#cuvo27{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateX(-451px) translateY(-151px) translateZ(-100px);
+    top:  200px;
+    left: 200px;
+    
+  
+}
+.c161{
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transform: translateZ(50px) ;
+    background-color: rgb(63, 63, 63);
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.c162{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//imgjavascript/3-3.png);
+    background-size: 100px 100px;
+    left: 100px;
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+    
+}
+
+.c163{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: rotateY(90deg);
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c164{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(../html/3-1.png);
+    background-size: 100px 100px;
+    transform: translateZ(-50px) rotateY(180deg); 
+    left: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c165{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 63);
+    transform: translateZ(-50px); 
+    left: 50px;
+    transform: rotatex(90deg);
+    top: -50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}
+.c166{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(..//css/3-3.png);
+    background-size: 100px 100px;
+    transform: rotatex(90deg) rotateX(180deg);
+    left: 50px;
+    top: 50px;
+    border: 2px solid;
+    color: rgb(0, 183, 255);
+    border-radius: 20px;
+}

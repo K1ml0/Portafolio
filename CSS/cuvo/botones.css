@@ -1,0 +1,98 @@
+
+
+.targetahtml, .targetacss, .targeta_javas, .targeta_java{
+
+    top: 40px;
+}
+.botones{
+    position: relative;
+    top: -90px;
+    left: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    left: 200px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    padding: 4px 26px;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid;
+    color: rgb(0, 183, 255);
+    
+}
+.b1:hover{
+    background-color: rgb(63, 63, 63);
+
+}
+.b2{
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    left: 330px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    padding: 4px 26px;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid;
+    color: rgb(0, 183, 255);
+    
+}
+.b2:hover{
+    background-color: rgb(63, 63, 63);
+
+}
+
+.b3{
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    left: 450px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    padding: 4px 26px;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid;
+    color: rgb(0, 183, 255);
+    
+}
+.b3:hover{
+    background-color: rgb(63, 63, 63);
+
+}
+.b4{
+    text-decoration: none;
+    background-color: transparent;
+    position: absolute;
+    left: 635px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: aliceblue;
+    padding: 4px 26px;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid;
+    color: rgb(0, 183, 255);
+    
+}
+.b4:hover{
+    background-color: rgb(63, 63, 63);
+
+}
